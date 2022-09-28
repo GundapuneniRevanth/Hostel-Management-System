@@ -1,0 +1,79 @@
+﻿
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.parent {
+    display: table;
+    margin: auto;
+}
+
+#nav-section {
+    display: table-cell;
+    
+}
+
+header {
+    height: 70px;
+    margin: 10px;
+    padding: 10px;
+    background-color: cyan;
+    text-align: center;
+}
+
+    header h1 {
+        color: black;
+        font-family: Rockwell;
+    }
+
+nav {
+    border-radius: 15px;
+    width: 280px;
+    height: 30px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 30px;
+   
+}
+
+    nav, li {
+        padding: 10px;
+        padding-left: 50px;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: green;
+    }
+
+#section1 {
+    width: 700px;
+    height: 450px;
+    padding: 10px;
+    background-color: white;
+    
+
+}
+
+footer {
+  
+    margin-top: 40px;
+    padding: 10px;
+    background-color: cyan;
+    text-align: center;
+    color: black;
+    font-family: Rockwell;
+}
+
+
